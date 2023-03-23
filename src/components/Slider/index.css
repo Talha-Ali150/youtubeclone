@@ -1,0 +1,11 @@
+.SliderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textItem{
+    display: none;
+}
+.textItem.active{
+    display: flex;
+}
