@@ -1,10 +1,11 @@
 import React from 'react'
 import './index.css'
 import { useState } from 'react';
+import SliderButton from '../SliderButton';
 
 export default function Slider() {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const texts = ['All','Live','Music','Cinema','Thriller','Comedy','Cricket','News',]
+    const texts = ['All','Dramas','Comedy','Music','Live','Dubbing','Dramedy','Thrillers', 'News', 'Bollywood', 'Live', 'Game', 'Cricket', 'Patlu', 'films', 'Cars', 'Recent', 'Bike', 'Tennis']
     const handlePrev = () => {
         const index = (currentIndex - 1 + texts.length) % texts.length;
         setCurrentIndex(index);
@@ -14,18 +15,30 @@ export default function Slider() {
         const index = (currentIndex + 1) % texts.length;
         setCurrentIndex(index);
       };
-      let itemsToShow =4
+      let itemsToShow;
+      if(window.innerWidth >= 320 && window.innerWidth <= 600){
+        itemsToShow = 4
+      }
+      if(window.innerWidth >= 768 && window.innerWidth <= 992){
+        itemsToShow = 7
+      }
+      if(window.innerWidth >= 1200 && window.innerWidth <=1500){
+        itemsToShow = 11
+      }
+
 
       const visibleItems = texts.slice(currentIndex, currentIndex + itemsToShow);
 
   return (
     <div className='SliderContainer'>
         
-       {currentIndex === 0 || <button onClick={handlePrev}>&lt;</button>}
+       {currentIndex === 0 || <button className='sliderBtnStyling sliderBtnStylingPrev' onClick={handlePrev}>&lt;</button>}
+       <div className='sliderContent'>
         {visibleItems.map((item, index)=>{
-            return <p className='textItem active'>{item}</p>
+            return <SliderButton className='textItem' items={item} />
         })}
-        {currentIndex === texts.length-itemsToShow || <button onClick={handleNext}>&gt;</button>}
+        </div>
+        {currentIndex === texts.length-itemsToShow || <button className='sliderBtnStyling sliderBtnStylingNext' onClick={handleNext}>&gt;</button>}
         
     </div>
   )

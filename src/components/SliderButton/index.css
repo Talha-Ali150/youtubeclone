@@ -1,0 +1,31 @@
+.sliderButtonStyling{
+    background-color: #f2f2f2;
+    border: 1px solid white;
+    border-radius: 0.7em;
+    padding: 0.6em 0.9em;
+    margin: 1em 0.4em;
+    width: 6em;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px){
+  
+}
+@media only screen and (max-width: 768px) and (min-width: 481px){
+.sliderButtonStyling{
+        background-color: #f2f2f2;
+        border: 1px solid white;
+        border-radius: 0.7em;
+        padding: 0.6em 0.9em;
+        margin: 1em 0.4em;
+        width: 6em;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 769px){
+
+}
+@media only screen and (max-width: 1200px) and (min-width: 993px){
+
+}
+@media only screen and (max-width: 1500px) and (min-width: 1201px){
+
+}
