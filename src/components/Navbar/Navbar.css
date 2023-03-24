@@ -2,12 +2,23 @@
     margin: 0%;
     padding: 0%;
 }
+svg{
+    color: black;
+}
 .navbar{
+    color: white;
+    background-color:white;
     height: 60px;
+    width: 100%;
     display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
     box-sizing: border-box;
     align-items: center;
     padding: 10px;
+    position:sticky;
+    top: 0;
+    left: 0;
 }
 .navbar > img{
     width: 100px;
@@ -46,13 +57,13 @@
  padding: 4px;
 }
 button :hover{
-    background-color: rgba(80, 80, 248, 0.274);
+   color: rgba(80, 80, 248, 0.274);
 }
 
 .option-btn{
     border: none;
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 5px;
     font-size: larger;
 }
 .search-btn{
@@ -69,3 +80,35 @@ button :hover{
     align-items: center;
     margin-left: 5px;
 }
+
+@media only screen and (max-width: 480px) and (min-width: 320px){
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px){
+    .navbar{
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 100%;
+        }
+        .svg{
+            font-size: large;
+        }
+     .signin-btn{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 80px;
+     }
+    
+    }
+    @media only screen and (max-width: 992px) and (min-width: 769px){
+    
+    }
+    @media only screen and (max-width: 1200px) and (min-width: 993px){
+    
+    }
+    @media only screen and (max-width: 1500px) and (min-width: 1201px){
+    
+    }
