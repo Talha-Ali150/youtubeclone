@@ -17,6 +17,86 @@ const App = () => {
       heading2: "Pakistan Cricket",
       heading3: "7.9M views . 1 month ago",
     },
+    {
+      imgSrc:
+        "https://i.ytimg.com/vi/dcbhrSXnhMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAC2TlJKDnqt-6olKQlavtYwbBYA",
+      logoSrc:
+        "https://yt3.ggpht.com/6OBUmNVrNl74OLYgxdnxJ82JDzFX7iS2EnYlNzLROlNE1lbnd3QjBLmRQDeBzfk0yM2wAjFh=s68-c-k-c0x00ffffff-no-rj",
+      heading1:
+        "Let's Hear From The Players Making Their Debut In The First #AFGvPAKT20I",
+      heading2: "Pakistan Cricket",
+      heading3: "7.9M views . 1 month ago",
+    },
+    {
+      imgSrc:
+        "https://i.ytimg.com/vi/dcbhrSXnhMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAC2TlJKDnqt-6olKQlavtYwbBYA",
+      logoSrc:
+        "https://yt3.ggpht.com/6OBUmNVrNl74OLYgxdnxJ82JDzFX7iS2EnYlNzLROlNE1lbnd3QjBLmRQDeBzfk0yM2wAjFh=s68-c-k-c0x00ffffff-no-rj",
+      heading1:
+        "Let's Hear From The Players Making Their Debut In The First #AFGvPAKT20I",
+      heading2: "Pakistan Cricket",
+      heading3: "7.9M views . 1 month ago",
+    },
+    {
+      imgSrc:
+        "https://i.ytimg.com/vi/dcbhrSXnhMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAC2TlJKDnqt-6olKQlavtYwbBYA",
+      logoSrc:
+        "https://yt3.ggpht.com/6OBUmNVrNl74OLYgxdnxJ82JDzFX7iS2EnYlNzLROlNE1lbnd3QjBLmRQDeBzfk0yM2wAjFh=s68-c-k-c0x00ffffff-no-rj",
+      heading1:
+        "Let's Hear From The Players Making Their Debut In The First #AFGvPAKT20I",
+      heading2: "Pakistan Cricket",
+      heading3: "7.9M views . 1 month ago",
+    },
+    {
+      imgSrc:
+        "https://i.ytimg.com/vi/dcbhrSXnhMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAC2TlJKDnqt-6olKQlavtYwbBYA",
+      logoSrc:
+        "https://yt3.ggpht.com/6OBUmNVrNl74OLYgxdnxJ82JDzFX7iS2EnYlNzLROlNE1lbnd3QjBLmRQDeBzfk0yM2wAjFh=s68-c-k-c0x00ffffff-no-rj",
+      heading1:
+        "Let's Hear From The Players Making Their Debut In The First #AFGvPAKT20I",
+      heading2: "Pakistan Cricket",
+      heading3: "7.9M views . 1 month ago",
+    },
+    {
+      imgSrc:
+        "https://i.ytimg.com/vi/dcbhrSXnhMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAC2TlJKDnqt-6olKQlavtYwbBYA",
+      logoSrc:
+        "https://yt3.ggpht.com/6OBUmNVrNl74OLYgxdnxJ82JDzFX7iS2EnYlNzLROlNE1lbnd3QjBLmRQDeBzfk0yM2wAjFh=s68-c-k-c0x00ffffff-no-rj",
+      heading1:
+        "Let's Hear From The Players Making Their Debut In The First #AFGvPAKT20I",
+      heading2: "Pakistan Cricket",
+      heading3: "7.9M views . 1 month ago",
+    },
+    {
+      imgSrc:
+        "https://i.ytimg.com/vi/dcbhrSXnhMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAC2TlJKDnqt-6olKQlavtYwbBYA",
+      logoSrc:
+        "https://yt3.ggpht.com/6OBUmNVrNl74OLYgxdnxJ82JDzFX7iS2EnYlNzLROlNE1lbnd3QjBLmRQDeBzfk0yM2wAjFh=s68-c-k-c0x00ffffff-no-rj",
+      heading1:
+        "Let's Hear From The Players Making Their Debut In The First #AFGvPAKT20I",
+      heading2: "Pakistan Cricket",
+      heading3: "7.9M views . 1 month ago",
+    },
+    {
+      imgSrc:
+        "https://i.ytimg.com/vi/dcbhrSXnhMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAC2TlJKDnqt-6olKQlavtYwbBYA",
+      logoSrc:
+        "https://yt3.ggpht.com/6OBUmNVrNl74OLYgxdnxJ82JDzFX7iS2EnYlNzLROlNE1lbnd3QjBLmRQDeBzfk0yM2wAjFh=s68-c-k-c0x00ffffff-no-rj",
+      heading1:
+        "Let's Hear From The Players Making Their Debut In The First #AFGvPAKT20I",
+      heading2: "Pakistan Cricket",
+      heading3: "7.9M views . 1 month ago",
+    },
+    {
+      imgSrc:
+        "https://i.ytimg.com/vi/dcbhrSXnhMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAC2TlJKDnqt-6olKQlavtYwbBYA",
+      logoSrc:
+        "https://yt3.ggpht.com/6OBUmNVrNl74OLYgxdnxJ82JDzFX7iS2EnYlNzLROlNE1lbnd3QjBLmRQDeBzfk0yM2wAjFh=s68-c-k-c0x00ffffff-no-rj",
+      heading1:
+        "Let's Hear From The Players Making Their Debut In The First #AFGvPAKT20I",
+      heading2: "Pakistan Cricket",
+      heading3: "7.9M views . 1 month ago",
+    },
   ];
   return (
     <div className="app">      
