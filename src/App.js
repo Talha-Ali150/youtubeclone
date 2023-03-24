@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import Sidebar from './components/Slider/Sidebar';
+import Navbar from './components/Navbar/Navbar';
 import Slider from "./components/Slider";
 import VideoCard from "./components/VideoCard";
 
@@ -17,7 +19,9 @@ const App = () => {
     },
   ];
   return (
-    <div className="app">
+    <div className="app">      
+      <Navbar/>
+      <Sidebar/>
       <Slider />
       <div className="myContainer">
         {videoCardItems.map((item)=>{
