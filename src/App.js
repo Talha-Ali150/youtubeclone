@@ -1,11 +1,16 @@
 import React from "react";
 import "./App.css";
-import Sidebar from './components/Slider/Sidebar';
+import Sidebar from './components/Sidebar/sidebar';
 import Navbar from './components/Navbar/Navbar';
 import Slider from "./components/Slider";
 import VideoCard from "./components/VideoCard";
 
+
+
+
 const App = () => {
+
+
   const videoCardItems = [
     {
       imgSrc:
@@ -99,17 +104,21 @@ const App = () => {
     },
   ];
   return (
-    <div className="app">      
-      <Navbar/>
-      <Sidebar/>
+    <div className="app">
+      <Navbar />
       <Slider />
-      <div className="myContainer">
-        {videoCardItems.map((item)=>{
+            <div className="myContainer">
+        {videoCardItems.map((item) => {
           return <VideoCard imgSrc={item.imgSrc} logoSrc={item.logoSrc} heading1={item.heading1} heading2={item.heading2} heading3={item.heading3} />
         })}
       </div>
+      
+      <Sidebar />
+      
+
     </div>
   );
+
 };
 
 export default App;
