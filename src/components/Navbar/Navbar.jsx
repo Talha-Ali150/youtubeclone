@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from "../../logo.png";
-import {Link} from "react-router-dom"
 import "./Navbar.css";
 import {RxHamburgerMenu,RxAvatar} from "react-icons/rx";
 import {BsSearch} from "react-icons/bs";
