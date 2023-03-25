@@ -1,34 +1,118 @@
-@media only screen and (max-width: 768px) and (min-width: 320px){
-    .app{
+/* @media only screen and (max-width: 320px) and (min-width: 0px){}
+@media only screen and (max-width: 375px) and (min-width: 321px){}
+@media only screen and (max-width: 425px) and (min-width: 376px){}
+@media only screen and (max-width: 768px) and (min-width: 426px){}
+@media only screen and (max-width: 1024px) and (min-width: 768px){}
+@media only screen and (max-width: 1440px) and (min-width: 1025px){}
+@media only screen and (min-width: 1441px){} */
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+    .app {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
         overflow: hidden;
     }
-    .myContainer{
+
+    .myContainer {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        left: 3em;
+        left: 4em;
     }
 }
-@media only screen and (max-width: 992px) and (min-width: 769px){
 
-}
-@media only screen and (max-width: 1200px) and (min-width: 993px){
-
-}
-@media only screen and (max-width: 1500px) and (min-width: 1201px){
-    .app{
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+    .app {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
         overflow: hidden;
     }
-    .myContainer{
+
+    .myContainer {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        left: 6em;
+        left: 4em;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+    .app {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .myContainer {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 4em;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 426px) {
+    .app {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .myContainer {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 5em;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .app {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .myContainer {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 4em;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+    .app {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .myContainer {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 4em;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    .app {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .myContainer {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 4em;
     }
 }
